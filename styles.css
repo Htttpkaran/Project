@@ -1,0 +1,128 @@
+/* Basic reset and body styling */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body {
+    background-image:  url('bg.jpg') ;
+    background-size: cover;
+    
+}
+
+/* Navigation Bar */
+header {
+    background-color: #63b869;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+header h1 {
+    color: white;
+    margin-top: 10px;
+}
+
+/* Hero Section */
+
+
+
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(20, 20, 20, 0.5); /* semi-transparent background */
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.energy-types {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.energy-item {
+    background-color: #e0f2f1;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.energy-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.energy-item h3 {
+    margin: 10px 0;
+}
+
+.energy-item p {
+    font-size: 0.9em;
+    color: black;
+}
+
+/* Contact Section */
+#contactForm {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contactForm label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    background-color: #004d40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+}
+
+#contactForm button:hover {
+    background-color: #00695c;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

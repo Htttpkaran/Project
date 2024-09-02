@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renewable Energy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#types">Types of Renewable Energy</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Renewable Energy for a Sustainable Future</h1>
+    </header>
+    <br>
+    <div class="slider" id="jao">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="main.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="main2.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="main3.jpg" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="main4.jpg" alt="Image 4">
+            </div>
+
+            <!-- Automatic Navigation -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+            <!-- Manual Navigation -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+    <section id="about">
+        <h2>About Renewable Energy</h2>
+        <p>Renewable energy is energy from sources that are naturally replenishing but flow-limited. They are virtually inexhaustible in duration but limited in the amount of energy that is available per unit of time.</p>
+    </section>
+
+    <section id="types">
+        <h2>Types of Renewable Energy</h2>
+        <div class="energy-types">
+            <div class="energy-item">
+                <img src="solar.jpg" alt="Solar Energy">
+                <h3>Solar Energy</h3>
+                <p>Solar energy is the most abundant energy resource on earth.</p>
+            </div>
+            <div class="energy-item">
+                <img src="wind.jpg" alt="Wind Energy">
+                <h3>Wind Energy</h3>
+                <p>Wind energy is one of the fastest-growing energy sources in the world.</p>
+            </div>
+            <div class="energy-item">
+                <img src="Hydropower.jpg" alt="Hydropower">
+                <h3>Hydropower</h3>
+                <p>Hydropower is one of the oldest and largest sources of renewable energy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Renewable Energy Inc. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
